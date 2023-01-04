@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/main.js" ></script>
+    <script src="lr-area.js" ></script>
     <title>Functions</title>
 </head>
 <body>
@@ -15,6 +15,29 @@
     <input id="textBox" type="text"></input>
     <div id="output"></div>
     
+    <script>
+        const x = 1;
+
+        function a() {
+          const y = 2;
+            output(x);
+        }
+
+        function b() {
+          const z = 3;
+          output(x);
+        }
+
+        a();
+        b();
+
+        function output(value) {
+          const para = document.createElement('p');
+          document.body.appendChild(para);
+          para.textContent = `Value: ${value}`;
+        }
+
+    </script>    
 
 </body>
 </html>
