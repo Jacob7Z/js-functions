@@ -65,7 +65,15 @@ let double = n => n * 2;
 console.log(double(3));     
 
 
+function addNum(a,b){
+    return a+b;
+}
 
+function average(a,b){
+    return addNum(a,b)/2;
+}
+
+console.log(average(5,4));
 
 
 
