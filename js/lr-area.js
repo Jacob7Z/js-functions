@@ -78,6 +78,14 @@ console.log(average(5,4));
 
 
 
+function fn(){ // recursive function  {infinite loop} -> error mf
+    fn();
+}
+
+fn();
+
+
+
 
 
 
